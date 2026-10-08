@@ -1,0 +1,155 @@
+:root {
+  --palette-pumpkin-spice: #ff6700;
+  --palette-platinum: #ebebeb;
+  --palette-silver: #c0c0c0;
+  --palette-cornflower-ocean: #3a6ea5;
+  --palette-steel-azure: #004e98;
+  --bs-primary: var(--palette-steel-azure);
+  --bs-secondary: var(--palette-silver);
+  --bs-success: var(--palette-cornflower-ocean);
+  --bs-link-color: var(--palette-cornflower-ocean);
+  --bs-link-hover-color: var(--palette-steel-azure);
+  --bs-body-color: #263746;
+  --bs-body-bg: var(--palette-platinum);
+  --bs-border-color: var(--palette-silver);
+}
+
+body {
+  min-height: 100vh;
+  color: var(--bs-body-color);
+  background: linear-gradient(135deg, var(--palette-platinum), #fff);
+}
+
+.my-nav {
+  background-color: var(--palette-steel-azure);
+}
+
+.my-nav .navbar-brand,
+.my-nav .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.my-nav .navbar-nav .nav-link:hover,
+.my-nav .navbar-brand:hover {
+  color: var(--palette-pumpkin-spice);
+}
+
+.my-nav .btn-light {
+  color: var(--palette-steel-azure);
+  background-color: var(--palette-platinum);
+  border-color: var(--palette-platinum);
+}
+
+.my-nav .btn-light:hover {
+  background-color: var(--palette-silver);
+  border-color: var(--palette-silver);
+}
+
+.my-nav .navbar-toggler {
+  border-color: rgb(255 255 255 / 45%);
+}
+
+.white-box {
+  margin-bottom: 40px;
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid var(--palette-silver);
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgb(0 78 152 / 8%);
+}
+
+.top-header {
+  background: linear-gradient(90deg, var(--palette-cornflower-ocean), var(--palette-steel-azure));
+}
+
+.top-header.text-white {
+  color: #fff !important;
+}
+
+.add-bar {
+  background: var(--palette-platinum);
+}
+
+.grey-input {
+  background: #fff;
+  border: 1px solid var(--palette-silver);
+  border-radius: 20px;
+}
+
+.grey-input:focus,
+.form-control:focus,
+.form-select:focus {
+  border-color: var(--palette-cornflower-ocean);
+  box-shadow: 0 0 0 0.2rem rgb(58 110 165 / 25%);
+}
+
+.add-btn {
+  padding: 10px 30px;
+  color: var(--palette-steel-azure);
+  font-weight: bold;
+  background: var(--palette-pumpkin-spice);
+  border-color: var(--palette-pumpkin-spice);
+  border-radius: 25px;
+}
+
+.add-btn:hover,
+.add-btn:focus-visible {
+  color: #fff;
+  background: var(--palette-steel-azure);
+  border-color: var(--palette-steel-azure);
+}
+
+.tab {
+  margin-right: 25px;
+  color: var(--palette-cornflower-ocean);
+  cursor: pointer;
+}
+
+.active-tab {
+  color: var(--palette-steel-azure);
+  font-weight: bold;
+}
+
+.student-name {
+  color: var(--palette-steel-azure);
+  font-weight: 600;
+}
+
+.edit-link {
+  color: var(--palette-cornflower-ocean);
+  cursor: pointer;
+}
+
+.edit-link:hover {
+  color: var(--palette-steel-azure);
+}
+
+.btn-success {
+  color: #fff;
+  background-color: var(--palette-cornflower-ocean);
+  border-color: var(--palette-cornflower-ocean);
+}
+
+.btn-success:hover,
+.btn-success:focus-visible {
+  color: #fff;
+  background-color: var(--palette-steel-azure);
+  border-color: var(--palette-steel-azure);
+}
+
+.btn-secondary {
+  color: var(--palette-steel-azure);
+  background-color: var(--palette-silver);
+  border-color: var(--palette-silver);
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus-visible {
+  color: #fff;
+  background-color: var(--palette-steel-azure);
+  border-color: var(--palette-steel-azure);
+}
+
+.table {
+  --bs-table-border-color: var(--palette-platinum);
+}
